@@ -72,8 +72,10 @@ Here's an overview of the operating systems supported in v86:
 - Haiku works.
 - Android x86 1.6-r2 works if one selects VESA mode at the boot prompt. Newer
   versions haven't been tested.
-- Windows 1, 3.0, 95, 98, ME and 2000 work. Other versions currently don't (see [#86](https://github.com/copy/v86/issues/86), [#208](https://github.com/copy/v86/issues/208)).
-  - In Windows 2000 and higher the PC type has to be changed from ACPI PC to Standard PC
+- Windows 1, 3.0, 95, 98, ME, 2000, XP, Vista, and 7 work. Other versions may not (see [#86](https://github.com/copy/v86/issues/86), [#208](https://github.com/copy/v86/issues/208)).
+  - In Windows 2000 and XP, the PC type may have to be changed from ACPI PC to Standard PC.
+  - In Windows Vista and later, make sure to enable ACPI.
+  - Windows 8 and later currently doesn't boot.
 - Many hobby operating systems work.
 - 9front works.
 - Plan 9 doesn't work.
